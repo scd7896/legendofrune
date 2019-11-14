@@ -1,8 +1,9 @@
 import React from 'react'
 import CostFilter from '../molecules/CostFilter'
+import './css/DeckEditor.css'
 const DeckEditor = ()=>{
     return(
-        <div>
+        <div className = "container">
             <CostFilter/>
         </div>
     )
