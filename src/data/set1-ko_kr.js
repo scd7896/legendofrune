@@ -34,45 +34,7 @@ export default [
     "type": "주문",
     "collectible": false
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX020T1",
-      "01NX020T2",
-      "01NX020"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX020T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX020T3-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 4,
-    "cost": 3,
-    "health": 4,
-    "description": "<link=vocab.Play><style=Vocab>사용</style></link> 또는 <link=vocab.Strike><style=Vocab>타격</style></link>:<br>손에 <link=card.create><style=AssociatedCard>회전 도끼</style></link> 둘을 생성합니다.",
-    "descriptionRaw": "사용 또는 타격:손에 회전 도끼 둘을 생성합니다.",
-    "flavorText": "\"사인해달라고? 줄부터 서야지.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "드레이븐",
-    "cardCode": "01NX020T3",
-    "keywords": [
-      "압도"
-    ],
-    "keywordRefs": [
-      "Overwhelm"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -139,121 +101,8 @@ export default [
     "type": "유닛",
     "collectible": false
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ040",
-      "01PZ040T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T3-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "사용하려면 카드 1장을 버려야 합니다. 아무것이나 선택해 피해를 3 입힙니다.\r\n덱에 <link=card.level1><style=AssociatedCard>징크스</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "사용하려면 카드 1장을 버려야 합니다. 아무것이나 선택해 피해를 3 입힙니다.\r\n덱에 징크스 하나를 섞어 넣습니다.",
-    "flavorText": "\"싹 날려버리자구우우!!!\" - 징크스",
-    "artistName": "Original Force",
-    "name": "징크스의 신난다!",
-    "cardCode": "01PZ040T3",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR024",
-      "01FR024T3"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T2-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "모든 적에게 피해를 1 입힙니다.",
-    "descriptionRaw": "모든 적에게 피해를 1 입힙니다.",
-    "flavorText": "고요 전에 찾아오는 폭풍입니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "얼음 폭풍",
-    "cardCode": "01FR024T2",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ022",
-      "01PZ008",
-      "01PZ008T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ008T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ008T2-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 2,
-    "cost": 1,
-    "health": 2,
-    "description": "<link=vocab.Nexus Strike><style=Vocab>넥서스 타격</style></link>: 적 덱의 <link=card.shuffle><style=AssociatedCard>독버섯</style></link> 개수가<br>두 배로 늡니다.",
-    "descriptionRaw": "넥서스 타격: 적 덱의 독버섯 개수가두 배로 늡니다.",
-    "flavorText": "\"밴들 시티 정찰대 규칙 제154조: 미지를 두려워하지 마라! 제276조: 숲속에 사는 모두가 우리 친구다! 제354조: 털이 복슬복슬하면 쓰다듬기에 안전할 수 있으나 먹기에는 안전하지 않다! 제417조...\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "티모",
-    "cardCode": "01PZ008T2",
-    "keywords": [
-      "포착 불가"
-    ],
-    "keywordRefs": [
-      "Elusive"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -401,44 +250,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR039",
-      "01FR039T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR039T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR039T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 8,
-    "health": 0,
-    "description": "아군 하나에게 +8|+4를 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>트린다미어</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "아군 하나에게 +8|+4를 부여합니다.\r\n덱에 트린다미어 하나를 섞어 넣습니다.",
-    "flavorText": "\"누가 그러더군... 내 성질이 불같다고 말이야.\" - 트린다미어",
-    "artistName": "SIXMOREVODKA",
-    "name": "트린다미어의 격노",
-    "cardCode": "01FR039T1",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -651,44 +463,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE042",
-      "01DE042T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE042T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE042T1-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "이 라운드에 아군 하나에게<br><link=keyword.Barrier><sprite name=Barrier><style=Keyword>보호막</style></link>을 일시 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>럭스</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "이 라운드에 아군 하나에게보호막을 일시 부여합니다.\r\n덱에 럭스 하나를 섞어 넣습니다.",
-    "flavorText": "\"세상은 당신이 다른 사람과 다르면 등을 돌려버릴 수도 있어요. 사람들은 당신이 가진 차이가 당신을 약하게 한다고 말하죠. 하지만 그 차이는 우리를 강하고도 따뜻한 사람들로 만들어 줘요. 가장 어두운 순간에도, 제가 당신을 지켜드릴게요!\" - 럭스",
-    "artistName": "Kudos Productions",
-    "name": "럭스의 프리즘 보호막",
-    "cardCode": "01DE042T1",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -984,45 +759,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI002",
-      "01SI053",
-      "01SI053T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI053T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI053T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 1,
-    "health": 0,
-    "description": "이 라운드에 아군이 사망했으면<br><link=card.create><style=AssociatedCard>새끼거미</style></link> 둘을 소환합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>엘리스</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "이 라운드에 아군이 사망했으면새끼거미 둘을 소환합니다.\r\n덱에 엘리스 하나를 섞어 넣습니다.",
-    "flavorText": "뭔가 피부 위를 기어 다니는 듯한 감각은 피부 속을 기어 다니는 느낌만큼 섬뜩하지는 않습니다.",
-    "artistName": "Kudos Productions",
-    "name": "엘리스의 스멀거리는 느낌",
-    "cardCode": "01SI053T1",
-    "keywords": [
-      "집중"
-    ],
-    "keywordRefs": [
-      "Slow"
-    ],
-    "spellSpeed": "집중",
-    "spellSpeedRef": "Slow",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -1472,44 +1209,7 @@ export default [
     "type": "유닛",
     "collectible": false
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE012T2",
-      "01DE012"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE012T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE012T1-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 6,
-    "cost": 5,
-    "health": 6,
-    "description": "라운드 시작: 공격 토큰을 획득합니다.",
-    "descriptionRaw": "라운드 시작: 공격 토큰을 획득합니다.",
-    "flavorText": "\"내가 엄격하다고 생각할 테지. 외골수에, 뭘 할지 너무 자명한 사람이라고 생각할 게지. 나는 아무것에도 흔들리지 않기 위해 나 자신에게 엄격하고, 데마시아만을 생각하는 외골수인 거다. 그리고 내가 너를 쓰러뜨릴 것이란 사실도 자명하다.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "가렌",
-    "cardCode": "01DE012T1",
-    "keywords": [
-      "재생"
-    ],
-    "keywordRefs": [
-      "Regeneration"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "정예",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -1728,45 +1428,6 @@ export default [
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "01PZ040T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T2-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "적 넥서스에 피해를 4 입히고<br>다른 모든 적에게 피해를 1 입힙니다.<br><link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>일회용</style></link>.",
-    "descriptionRaw": "적 넥서스에 피해를 4 입히고다른 모든 적에게 피해를 1 입힙니다.일회용.",
-    "flavorText": "\"잘 가!\" - 징크스",
-    "artistName": "Ben Skutt",
-    "name": "초강력 초토화 로켓!",
-    "cardCode": "01PZ040T2",
-    "keywords": [
-      "집중",
-      "일회용"
-    ],
-    "keywordRefs": [
-      "Slow",
-      "Fleeting"
-    ],
-    "spellSpeed": "집중",
-    "spellSpeedRef": "Slow",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
       "01SI002",
       "01SI053T2",
       "01SI053T1"
@@ -1838,76 +1499,8 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ048T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ048T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "덱의 맨 위에 있는 카드 5장을 버리고 모든 적과 적 넥서스에 버려진 주문 카드 하나당 피해를 1씩 입힙니다.",
-    "descriptionRaw": "덱의 맨 위에 있는 카드 5장을 버리고 모든 적과 적 넥서스에 버려진 주문 카드 하나당 피해를 1씩 입힙니다.",
-    "flavorText": "\"모든 업적에는 희생이 있기 마련이라고 말은 해두었지. 다만 누구의 희생이 될지 얘기하지 않았을 뿐이야.\" - 코리나 베라자",
-    "artistName": "Kudos Productions",
-    "name": "일생일대의 걸작",
-    "cardCode": "01PZ048T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX046T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX046T1-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 하나를 <link=keyword.Stun><sprite name=Stunned><style=Keyword>기절</style></link>시킵니다.",
-    "descriptionRaw": "적 하나를 기절시킵니다.",
-    "flavorText": "이건 그가 생각했던 키스가 아니었습니다.",
-    "artistName": "Kudos Productions",
-    "name": "마비독",
-    "cardCode": "01NX046T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -2222,44 +1815,7 @@ export default [
     "type": "유닛",
     "collectible": false
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE022",
-      "01DE022T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE022T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE022T2-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "공격 토큰을 획득합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>루시안</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "공격 토큰을 획득합니다.\r\n덱에 루시안 하나를 섞어 넣습니다.",
-    "flavorText": "\"너는 내 복수로부터 도망칠 수 없어.\" - 루시안",
-    "artistName": "Max Grecke",
-    "name": "루시안의 끈질긴 추격",
-    "cardCode": "01DE022T2",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -2736,76 +2292,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ054T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ054T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 넥서스에 피해를 2 입힙니다.",
-    "descriptionRaw": "적 넥서스에 피해를 2 입힙니다.",
-    "flavorText": "\"잘 가라!\" - 파괴단 신참",
-    "artistName": "Kudos Productions",
-    "name": "기반 약화",
-    "cardCode": "01PZ054T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ030T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ030T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "선택한 추종자와 똑같은 복사본으로 변신합니다.",
-    "descriptionRaw": "선택한 추종자와 똑같은 복사본으로 변신합니다.",
-    "flavorText": "정장을 입은 요들 두 마리가 아닙니다.",
-    "artistName": "Kudos Productions",
-    "name": "변장",
-    "cardCode": "01PZ030T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "희귀급",
-    "rarityRef": "Rare",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -3039,83 +2526,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ022",
-      "01PZ008",
-      "01PZ008T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ008T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ008T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 1,
-    "health": 0,
-    "description": "적 덱의 무작위 카드 5장에<br><link=card.shuffle><style=AssociatedCard>독버섯</style></link> 하나씩을 설치합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>티모</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "적 덱의 무작위 카드 5장에독버섯 하나씩을 설치합니다.\r\n덱에 티모 하나를 섞어 넣습니다.",
-    "flavorText": "먼저 약한 쿵 소리와 함께 버섯이 터집니다. 다음은 온몸을 마비시키는 불타는 고통이 찾아옵니다. 마지막으로 저 멀리서 웃음소리가 들리기 시작합니다...",
-    "artistName": "",
-    "name": "티모의 버섯 무리",
-    "cardCode": "01PZ008T1",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI030T1",
-      "01SI030"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI030T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI030T2-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 5,
-    "cost": 3,
-    "health": 3,
-    "description": "사용: 아군 하나와 결속합니다. 결속된 동안 해당 아군에게 +2|+0을 영구 부여합니다. 공격: 결속된 아군을 공격 준비 상태로 부활시키고 다시 결속합니다.",
-    "descriptionRaw": "사용: 아군 하나와 결속합니다. 결속된 동안 해당 아군에게 +2|+0을 영구 부여합니다. 공격: 결속된 아군을 공격 준비 상태로 부활시키고 다시 결속합니다.",
-    "flavorText": "그녀는 생전에 장군이자 수호자이며 영웅이었습니다. 하지만 육체가 떨어져 나간 뒤 타오르는 응징의 불꽃만 남게 되어 영원히 죽지 않는 복수의 망령이 되었습니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "칼리스타",
-    "cardCode": "01SI030T2",
-    "keywords": [
-      "공포"
-    ],
-    "keywordRefs": [
-      
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -3151,41 +2562,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI035T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI035T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "이 라운드에 아군이 사망했으면<br>공격력이 가장 낮은 적 둘을 처치합니다.",
-    "descriptionRaw": "이 라운드에 아군이 사망했으면공격력이 가장 낮은 적 둘을 처치합니다.",
-    "flavorText": "약육강식.",
-    "artistName": "Kudos Productions",
-    "name": "밤의 수확",
-    "cardCode": "01SI035T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -3256,47 +2633,6 @@ export default [
     "supertype": "",
     "type": "주문",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ052",
-      "01PZ036",
-      "01PZ036T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ036T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ036T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 2,
-    "cost": 3,
-    "health": 4,
-    "description": "<link=vocab.Nexus Strike><style=Vocab>넥서스 타격</style></link>: 비용이 0인 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>일회용</style></link><br><link=card.create><style=AssociatedCard>신비한 화살</style></link> 하나를 생성합니다.\r\n주문을 시전하면 적 넥서스에<br>피해를 2 입힙니다.",
-    "descriptionRaw": "넥서스 타격: 비용이 0인 일회용신비한 화살 하나를 생성합니다.\r\n주문을 시전하면 적 넥서스에피해를 2 입힙니다.",
-    "flavorText": "\"난 가능이 들어간 말을 좋아해. 그중에서 불가능을 제일 좋아하지!\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "이즈리얼",
-    "cardCode": "01PZ036T1",
-    "keywords": [
-      "포착 불가",
-      "주문 부여"
-    ],
-    "keywordRefs": [
-      "Elusive",
-      "Imbue"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   {
     "associatedCards": [],
@@ -3535,44 +2871,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX020",
-      "01NX020T3"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX020T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX020T2-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "전투 중인 아군 하나가<br>전투 중인 적 하나를 타격합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>드레이븐</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "전투 중인 아군 하나가전투 중인 적 하나를 타격합니다.\r\n덱에 드레이븐 하나를 섞어 넣습니다.",
-    "flavorText": "\"이 일이 정말 좋단 말야.\" - 드레이븐",
-    "artistName": "Rafael Zanchetin",
-    "name": "드레이븐의 죽음의 소용돌이",
-    "cardCode": "01NX020T2",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -3765,41 +3064,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ013T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ013T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "손에 든 카드를 모두 버리고<br>3장을 새로 뽑습니다. 아무것이나<br>선택해 피해를 3 입힙니다.",
-    "descriptionRaw": "손에 든 카드를 모두 버리고3장을 새로 뽑습니다. 아무것이나선택해 피해를 3 입힙니다.",
-    "flavorText": "진보에는 대가가 따르기 마련입니다.",
-    "artistName": "Rafael Zanchetin",
-    "name": "무모한 연구",
-    "cardCode": "01PZ013T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -4062,46 +3327,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI053T1",
-      "01SI053"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI053T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI053T2-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 4,
-    "cost": 2,
-    "health": 3,
-    "description": "다른 아군 거미들이 <link=keyword.Challenger><sprite name=Challenger><style=Keyword>도전자</style></link> 및 <link=keyword.Fearsome><sprite name=Fearsome><style=Keyword>공포</style></link> 효과를 획득합니다.",
-    "descriptionRaw": "다른 아군 거미들이 도전자 및 공포 효과를 획득합니다.",
-    "flavorText": "아름다움은 보는 사람의 눈에 달려 있습니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "거미 여왕 엘리스",
-    "cardCode": "01SI053T2",
-    "keywords": [
-      "공포",
-      "도전자"
-    ],
-    "keywordRefs": [
-      "Fearsome",
-      "Challenger"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "거미",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -4572,45 +3798,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR024",
-      "01FR024T3",
-      "01FR024T4"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 6,
-    "health": 0,
-    "description": "적 둘을 <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>동상</style></link>에 걸리게 합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>애니비아</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "적 둘을 동상에 걸리게 합니다.\r\n덱에 애니비아 하나를 섞어 넣습니다.",
-    "flavorText": "\"내 땅에서 감히 내게 도전한다고? 아직 준비된 것 같진 않구나, 꼬마야.\" - 애니비아",
-    "artistName": "Kudos Productions",
-    "name": "애니비아의 매서운 바람",
-    "cardCode": "01FR024T1",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -4844,44 +4032,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX038",
-      "01NX038T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX038T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX038T1-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 5,
-    "health": 0,
-    "description": "적 넥서스에 피해를 4 입힙니다.\r\n덱에 <link=card.level1><style=AssociatedCard>다리우스</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "적 넥서스에 피해를 4 입힙니다.\r\n덱에 다리우스 하나를 섞어 넣습니다.",
-    "flavorText": "\"요새를 함락시키려면 때로는 천재적인 전략이 필요하기도 하지만, 그냥 더 세게 밀어붙이면 될 때도 있지.\" - 다리우스",
-    "artistName": "Max Grecke",
-    "name": "다리우스의 학살",
-    "cardCode": "01NX038T1",
-    "keywords": [
-      "집중"
-    ],
-    "keywordRefs": [
-      "Slow"
-    ],
-    "spellSpeed": "집중",
-    "spellSpeedRef": "Slow",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -4920,40 +4071,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE022T2",
-      "01DE022"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE022T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE022T1-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 4,
-    "cost": 2,
-    "health": 3,
-    "description": "각 라운드마다 처음으로 아군이 사망하면 공격 토큰을 획득합니다.",
-    "descriptionRaw": "각 라운드마다 처음으로 아군이 사망하면 공격 토큰을 획득합니다.",
-    "flavorText": "\"세상은 괴물들로 가득 차 있어. 만약 네가 운이 좋다면, 그 괴물들은 눈에 보이는 녀석들일 거야. 최악은 네 안에 머무르는 녀석들이지...\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "루시안",
-    "cardCode": "01DE022T1",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -4988,44 +4106,6 @@ export default [
     "supertype": "",
     "type": "유닛",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE012",
-      "01DE012T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE012T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE012T2-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 0,
-    "cost": 8,
-    "health": 0,
-    "description": "전투 중인 아군 하나가<br>전투 중인 모든 적을 공격합니다.\r\n 덱에 <link=card.level1><style=AssociatedCard>가렌</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "전투 중인 아군 하나가전투 중인 모든 적을 공격합니다.\r\n 덱에 가렌 하나를 섞어 넣습니다.",
-    "flavorText": "정의는 언제나 승리한다.",
-    "artistName": "Kudos Productions",
-    "name": "가렌의 심판",
-    "cardCode": "01DE012T2",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
   },
   {
     "associatedCards": [],
@@ -5165,41 +4245,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX040T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX040T1-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 넥서스에 피해를 1 입힙니다.",
-    "descriptionRaw": "적 넥서스에 피해를 1 입힙니다.",
-    "flavorText": "\"쾅.\" - 군단 파괴 공작원",
-    "artistName": "Kudos Productions",
-    "name": "파괴 공작",
-    "cardCode": "01NX040T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -5237,40 +4283,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO032T2",
-      "01IO032"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO032T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO032T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 3,
-    "cost": 4,
-    "health": 6,
-    "description": "<link=vocab.Support><style=Vocab>지원</style></link>: 이 유닛으로부터<br>지원을 받는 아군 하나에게<br><link=keyword.Barrier><sprite name=Barrier><style=Keyword>보호막</style></link>을 일시 부여합니다.\r\n이 라운드에 아군 하나가 <link=keyword.Barrier><sprite name=Barrier><style=Keyword>보호막</style></link>을 얻으면 +3|+0을 일시 부여합니다.",
-    "descriptionRaw": "지원: 이 유닛으로부터지원을 받는 아군 하나에게보호막을 일시 부여합니다.\r\n이 라운드에 아군 하나가 보호막을 얻으면 +3|+0을 일시 부여합니다.",
-    "flavorText": "\"움켜잡은 손처럼 인간 세계와 영혼 세계는 뒤얽혀있다. 두 세계의 작용은 조화를 이룬 채 존재하며, 내가 감시하는 한 어떤 세계도 다른 세계를 침범하지 못할 것이다.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "쉔",
-    "cardCode": "01IO032T1",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -5660,43 +4673,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX006"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T2-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "<link=card.vlad><style=AssociatedCard>블라디미르</style></link>를 제외하고<br>현재 공격 준비 상태인 모든 아군에게<br>피해를 1씩 입히고 해당 아군 하나당<br>적 넥서스에 피해를 1씩 입힙니다.",
-    "descriptionRaw": "블라디미르를 제외하고현재 공격 준비 상태인 모든 아군에게피해를 1씩 입히고 해당 아군 하나당적 넥서스에 피해를 1씩 입힙니다.",
-    "flavorText": "\"군침이 도는군.\" - 블라디미르",
-    "artistName": "Max Grecke",
-    "name": "핏빛 계약",
-    "cardCode": "01NX006T2",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -5856,44 +4833,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI052",
-      "01SI052T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI052T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI052T2-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 4,
-    "health": 0,
-    "description": " 이 라운드에<br>적이 유닛 하나를 소환하면<br>해당 유닛에게 피해를 3 입힙니다.\r\n덱에 <link=card.level1><style=AssociatedCard>쓰레쉬</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": " 이 라운드에적이 유닛 하나를 소환하면해당 유닛에게 피해를 3 입힙니다.\r\n덱에 쓰레쉬 하나를 섞어 넣습니다.",
-    "flavorText": "\"빠져나갈 구멍은 없다.\" - 쓰레쉬",
-    "artistName": "Kudos Productions",
-    "name": "쓰레쉬의 영혼 감옥",
-    "cardCode": "01SI052T2",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -6173,44 +5113,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ056",
-      "01PZ056T10"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ056T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ056T3-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 8,
-    "health": 0,
-    "description": "카드 3장을 뽑고<br>그 3장의 비용을 1 감소시킵니다.\r\n덱에 <link=card.level1><style=AssociatedCard>하이머딩거</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "카드 3장을 뽑고그 3장의 비용을 1 감소시킵니다.\r\n덱에 하이머딩거 하나를 섞어 넣습니다.",
-    "flavorText": "진보의 날이 돌아왔습니다!\n축제를 즐기러 태양 관문의 광장으로 오세요!\n놀라운 마법공학 기술!\n용기로 똘똘 뭉친 포로!\n현재에 대한 생각을 전하는 미래의 남자까지, 모두 볼 수 있습니다!\n무료 입장입니다! \n필트오버의 어린이 여러분을 환영합니다!",
-    "artistName": "Kudos Productions",
-    "name": "하이머딩거의 진보의 날!",
-    "cardCode": "01PZ056T3",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -6758,79 +5661,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO056T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO056T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 둘을 <link=keyword.Stun><sprite name=Stunned><style=Keyword>기절</style></link>시킵니다.",
-    "descriptionRaw": "적 둘을 기절시킵니다.",
-    "flavorText": "\"물러서라. 용서받지 못한 자에게 볼일이 있다.\" - 바람을 쫓는 자 요네",
-    "artistName": "Kudos Productions",
-    "name": "강력한 타격",
-    "cardCode": "01IO056T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI030",
-      "01SI030T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI030T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI030T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "이 라운드에 아군이 사망했으면<br>적 유닛 하나에게 피해를 3 입힙니다.\r\n덱에 <link=card.level1><style=AssociatedCard>칼리스타</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "이 라운드에 아군이 사망했으면적 유닛 하나에게 피해를 3 입힙니다.\r\n덱에 칼리스타 하나를 섞어 넣습니다.",
-    "flavorText": "\"우리의 창이 망자들을 위해 노래한다.\" - 칼리스타",
-    "artistName": "Wild Blue Studios",
-    "name": "칼리스타의 칠흑의 창",
-    "cardCode": "01SI030T1",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -7480,41 +6311,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR021T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR021T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "전투 중인 모든 유닛이<br>피해를 1 입습니다.",
-    "descriptionRaw": "전투 중인 모든 유닛이피해를 1 입습니다.",
-    "flavorText": "\"...그렇게 품위 있진 않은 듯하군.\" - 트린다미어",
-    "artistName": "Max Grecke",
-    "name": "타카즈의 분노",
-    "cardCode": "01FR021T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -8232,41 +7029,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR052T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR052T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "전장이나 손에 있는 공격력이 4 이하인 모든 추종자를 <link=keyword.Obliterate><style=Keyword>소멸</style></link>시킵니다.",
-    "descriptionRaw": "전장이나 손에 있는 공격력이 4 이하인 모든 추종자를 소멸시킵니다.",
-    "flavorText": "\"귀청을 찢는 듯한 울음소리가 절벽과 나의 힘줄, 뼈, 내 마음속의 생각마저 뒤흔들고 이 세상의 것이 아닌 듯한 빛이 계곡을 가득 채웠다! 그리고... 침묵이 감돌았다.\" - 방랑자 비에르그",
-    "artistName": "Max Grecke",
-    "name": "재앙의 시선",
-    "cardCode": "01FR052T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -8430,84 +7193,8 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO009T1",
-      "01IO009",
-      "01IO009T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO009T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO009T3-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "아군 하나를 <link=keyword.Recall><style=Keyword>귀환</style></link>시키고<br><link=card.create><style=AssociatedCard>살아있는 그림자</style></link> 하나를<br>그 자리에 소환합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>제드</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "아군 하나를 귀환시키고살아있는 그림자 하나를그 자리에 소환합니다.\r\n덱에 제드 하나를 섞어 넣습니다.",
-    "flavorText": "눈에 보이는 적은 진짜일까요? 아니면 그림자의 장난일까요?",
-    "artistName": "Max Grecke",
-    "name": "제드의 그림자술",
-    "cardCode": "01IO009T3",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI024",
-      "01SI042",
-      "01SI042T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI042T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI042T2-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "<link=card.summon><style=AssociatedCard>유령 기수</style></link> 둘을 소환합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>헤카림</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "유령 기수 둘을 소환합니다.\r\n덱에 헤카림 하나를 섞어 넣습니다.",
-    "flavorText": "예전 죽었을 때의 모습 그대로, 지금도 살아가고 있습니다. 끝까지 충성하는 모습으로.",
-    "artistName": "Kudos Productions",
-    "name": "헤카림의 그림자의 맹습",
-    "cardCode": "01SI042T2",
-    "keywords": [
-      "집중"
-    ],
-    "keywordRefs": [
-      "Slow"
-    ],
-    "spellSpeed": "집중",
-    "spellSpeedRef": "Slow",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -8928,44 +7615,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX042",
-      "01NX042T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX042T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX042T1-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "전투 중인 모든 유닛이<br>피해를 1 입습니다.\r\n덱에 <link=card.level1><style=AssociatedCard>카타리나</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "전투 중인 모든 유닛이피해를 1 입습니다.\r\n덱에 카타리나 하나를 섞어 넣습니다.",
-    "flavorText": "\"춤 좀 춰보실까!\" - 카타리나",
-    "artistName": "Rafael Zanchetin",
-    "name": "카타리나의 죽음의 연꽃",
-    "cardCode": "01NX042T1",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -8997,44 +7647,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR009",
-      "01FR009T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR009T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR009T2-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "피해를 입은 아군 하나에게<br>+3|+3을 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>브라움</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "피해를 입은 아군 하나에게+3|+3을 부여합니다.\r\n덱에 브라움 하나를 섞어 넣습니다.",
-    "flavorText": "\"...큰 부상을 입었지만, 브라움은 고개를 젖히고 크게 웃었다. 그는 힘든 순간에 영웅이 태어난다는 것을 알고 있었던 것이다!\" - 브라움 이야기",
-    "artistName": "SIXMOREVODKA",
-    "name": "브라움의 기백",
-    "cardCode": "01FR009T2",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -9719,43 +8332,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI033"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI033T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI033T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 넥서스 체력을 반으로 깎습니다.",
-    "descriptionRaw": "적 넥서스 체력을 반으로 깎습니다.",
-    "flavorText": "반쪽짜리 사람을 위한 반쪽짜리 검입니다. 검을 휘두르던 자의 맹세처럼 깨지고, 검의 수호를 다짐받은 왕처럼 망가진, 한때 축복을 받았던 그림자의 왕국처럼 무너진 무기입니다.",
-    "artistName": "Kudos Productions",
-    "name": "레드로스의 검",
-    "cardCode": "01SI033T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -9857,44 +8434,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO015",
-      "01IO015T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO015T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO015T2-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "공격하는 적 하나를 <link=keyword.Stun><sprite name=Stunned><style=Keyword>기절</style></link>시킵니다.\r\n덱에 <link=card.level1><style=AssociatedCard>야스오</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "공격하는 적 하나를 기절시킵니다.\r\n덱에 야스오 하나를 섞어 넣습니다.",
-    "flavorText": "\"하세기!\" - 야스오",
-    "artistName": "Max Grecke",
-    "name": "야스오의 강철 폭풍",
-    "cardCode": "01IO015T2",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -10002,43 +8542,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO007"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO007T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO007T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "공격 준비 상태인 <link=keyword.Ephemeral><sprite name=Ephemeral><style=Keyword>하루살이</style></link> 상태의 아군이 있으면 <link=card.Kalgren><style=AssociatedCard>그림자 검 렌</style></link>의 방어 유닛을 처치합니다.",
-    "descriptionRaw": "공격 준비 상태인 하루살이 상태의 아군이 있으면 그림자 검 렌의 방어 유닛을 처치합니다.",
-    "flavorText": "\"어둠이 밀려오면 그림자는 길어지고 명줄은 짧아지지...\"",
-    "artistName": "Kudos Productions",
-    "name": "치명적인 일격",
-    "cardCode": "01IO007T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -10074,41 +8578,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO033T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO033T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 셋을 <link=keyword.Recall><style=Keyword>귀환</style></link>시킵니다.",
-    "descriptionRaw": "적 셋을 귀환시킵니다.",
-    "flavorText": "\"우린 날아가고 있었는데, 정신을 차려보니 내가 바닥에 쓰러져 있더라니까!\" - 나보리 산적",
-    "artistName": "Kudos Productions",
-    "name": "하늘차기",
-    "cardCode": "01IO033T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -10243,41 +8713,7 @@ export default [
     "type": "함정",
     "collectible": false
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ044T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ044T2-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "모든 적에게 피해를 1 입힙니다.",
-    "descriptionRaw": "모든 적에게 피해를 1 입힙니다.",
-    "flavorText": "\"쇼를 시작합니다!\" - 화공 펑크족",
-    "artistName": "Max Grecke",
-    "name": "안면 붕괴 음파",
-    "cardCode": "01PZ044T2",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -10751,44 +9187,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR038",
-      "01FR038T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR038T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR038T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 3,
-    "health": 0,
-    "description": "적 하나를 <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>동상</style></link>에 걸리게 합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>애쉬</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "적 하나를 동상에 걸리게 합니다.\r\n덱에 애쉬 하나를 섞어 넣습니다.",
-    "flavorText": "추위는 예고 없이 찾아와 가장 강력한 용사마저 무력하게 만들어 버립니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "애쉬의 급속 냉각",
-    "cardCode": "01FR038T1",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -11780,41 +10179,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR036T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR036T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "적 유닛 하나에게 피해를 1 입힙니다.",
-    "descriptionRaw": "적 유닛 하나에게 피해를 1 입힙니다.",
-    "flavorText": "잡았다.",
-    "artistName": "Max Grecke",
-    "name": "저격",
-    "cardCode": "01FR036T1",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -12228,44 +10593,7 @@ export default [
     "type": "주문",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ036",
-      "01PZ036T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ036T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ036T2-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "아무것이나 선택해 피해를 2 입힙니다.\r\n덱에 <link=card.level1><style=AssociatedCard>이즈리얼</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "아무것이나 선택해 피해를 2 입힙니다.\r\n덱에 이즈리얼 하나를 섞어 넣습니다.",
-    "flavorText": "\"난 백발백중이야. 가끔 경고사격을 할 뿐.\" - 이즈리얼",
-    "artistName": "Max Grecke",
-    "name": "이즈리얼의 신비한 화살",
-    "cardCode": "01PZ036T2",
-    "keywords": [
-      "신속"
-    ],
-    "keywordRefs": [
-      "Fast"
-    ],
-    "spellSpeed": "신속",
-    "spellSpeedRef": "Fast",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -12674,44 +11002,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO032",
-      "01IO032T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO032T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO032T2-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 6,
-    "health": 0,
-    "description": "아군 둘을 서로 바꾸고 그 둘에게 <link=keyword.Barrier><sprite name=Barrier><style=Keyword>보호막</style></link>을 일시 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>쉔</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "아군 둘을 서로 바꾸고 그 둘에게 보호막을 일시 부여합니다.\r\n덱에 쉔 하나를 섞어 넣습니다.",
-    "flavorText": "\"안정된 발걸음으로.\" - 쉔\n",
-    "artistName": "SIXMOREVODKA",
-    "name": "쉔의 단결된 의지",
-    "cardCode": "01IO032T2",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -12894,44 +11185,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE045",
-      "01DE045T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE045T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE045T2-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 0,
-    "cost": 4,
-    "health": 0,
-    "description": "이 라운드에 아군 하나에게 +3|+0 및 <link=keyword.Barrier><sprite name=Barrier><style=Keyword>보호막</style></link>을 일시 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>피오라</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "이 라운드에 아군 하나에게 +3|+0 및 보호막을 일시 부여합니다.\r\n덱에 피오라 하나를 섞어 넣습니다.",
-    "flavorText": "\"마치 포로처럼 싸우는구나. 네 수준에 딱 맞는 싸움 방식이군!\" - 피오라",
-    "artistName": "Kudos Productions",
-    "name": "피오라의 응수",
-    "cardCode": "01DE045T2",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -12965,44 +11219,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR024",
-      "01FR024T3"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T5.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T5-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 0,
-    "health": 0,
-    "description": "모든 적에게 피해를 2 입힙니다.",
-    "descriptionRaw": "모든 적에게 피해를 2 입힙니다.",
-    "flavorText": "고요 전에 찾아오는 폭풍입니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "얼음 폭풍2",
-    "cardCode": "01FR024T5",
-    "keywords": [
-      "스킬"
-    ],
-    "keywordRefs": [
-      "Skill"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "일반",
-    "rarityRef": "Common",
-    "subtype": "",
-    "supertype": "",
-    "type": "스킬",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -13141,44 +11358,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX006",
-      "01NX006T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T3-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "아군 하나에게 피해를 1 입히고<br>이 라운드에 다른 아군 하나에게<br>+2|+2를 일시 부여합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>블라디미르</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "아군 하나에게 피해를 1 입히고이 라운드에 다른 아군 하나에게+2|+2를 일시 부여합니다.\r\n덱에 블라디미르 하나를 섞어 넣습니다.",
-    "flavorText": "\"서로 주고받으면서 사는 거지. 넌 주는 쪽, 난 받는 쪽.\" - 블라디미르",
-    "artistName": "SIXMOREVODKA",
-    "name": "블라디미르의 수혈",
-    "cardCode": "01NX006T3",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -13834,45 +12014,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO041",
-      "01IO041T1",
-      "01IO054"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO041T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO041T2-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 0,
-    "cost": 2,
-    "health": 0,
-    "description": "손에 무작위 주문 하나를 생성합니다.\r\n<link=keyword.Enlightened><style=Keyword>각성</style></link>: 주문을 하나 더 생성합니다.\r\n덱에 <link=card.level1><style=AssociatedCard>카르마</style></link> 하나를 섞어 넣습니다.",
-    "descriptionRaw": "손에 무작위 주문 하나를 생성합니다.\r\n각성: 주문을 하나 더 생성합니다.\r\n덱에 카르마 하나를 섞어 넣습니다.",
-    "flavorText": "\"희망이 흔들릴 때, 당신은 결코 혼자가 아니라는 것을 생각하세요. 과거는 항상 우리 편입니다. 과거는 무수한 수의 내일과 그 내일이 가져올 모든 희망을 알고 있습니다.\" - 카르마",
-    "artistName": "Kudos Productions",
-    "name": "카르마의 무한한 통찰",
-    "cardCode": "01IO041T2",
-    "keywords": [
-      "즉발"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "즉발",
-    "spellSpeedRef": "Burst",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "",
-    "type": "주문",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
