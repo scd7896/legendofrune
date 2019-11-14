@@ -1,16 +1,19 @@
 import React from 'react';
 import {useSelector} from 'react-redux'
 import DeckEditor from './pages/DeckEditor'
-import cardData from './data/set1-ko_kr'
+
+import {DeckEncoder} from 'runeterra'
 import './css/index.css'
 function App() {
   const cards = useSelector(state => state.card)
-  console.log('리덕스', cards)
+  const deck = DeckEncoder.decode('CEAAECABAQJRWHBIFU2DOOYIAEBAMCIMCINCILJZAICACBANE4VCYBABAILR2HRL')
+  for(let i = 0 ; i< deck.length; i++){
+    deck[i].cost = i;
+  }
+  const code = DeckEncoder.encode(deck)
   return (
     <div>
       <DeckEditor />
-      
-      
     </div>
   );
 }
