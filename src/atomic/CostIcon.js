@@ -1,23 +1,16 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import './css/CostIcon.css'
-import { ADD_COST_FILTER, RMV_COST_FILTER } from '../action';
+import { ADD_COST_FILTER, RMV_COST_FILTER, SET_COST_FILTER } from '../action';
 const CostIcon = ({cost})=>{
     const dispatch = useDispatch();
     const {costFilterList} = useSelector(state=> state.card)
     const check = costFilterList.findIndex((el)=> cost === el)
     const clickCostIcon = ()=>{
-        if(check === -1){
-            dispatch({
-                type : ADD_COST_FILTER,
-                data : cost
-            })
-        }else{
-            dispatch({
-                type : RMV_COST_FILTER,
-                data : cost
-            })
-        }
+        dispatch({
+            type : SET_COST_FILTER,
+            data : cost
+        })
     }
     return(
         <div className = {check === -1 ? "cost_icon_container none_selected" : "cost_icon_container"}
