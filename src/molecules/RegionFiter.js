@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/RegionFilter.css'
-import { createRequire } from 'module'
+
 const RegionFilter = ()=>{
     const arr = ["데마시아", "프렐요드", "아이오니아", "녹서스","필트오버 & 자운", `그림자 군도`]
     const imgarr = ["icon-demacia", "icon-freljord", "icon-ionia","icon-noxus","icon-piltoverzaun","icon-shadowisles"]

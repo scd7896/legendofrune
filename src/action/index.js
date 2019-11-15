@@ -11,3 +11,5 @@ export const ALL_SET_DECK = "ALL_SET_DECK"
 export const RMV_CARD_DECK = "RMV_CARD_DECK";
 
 export const SET_COST_FILTER = "SET_COST_FILTER"
+
+export const SET_DECODE_DECK = "SET_DECODE_DECK"

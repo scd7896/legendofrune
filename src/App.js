@@ -10,7 +10,9 @@ function App() {
   for(let i = 0 ; i< deck.length; i++){
     deck[i].cost = i;
   }
+  // console.log(deck)
   const code = DeckEncoder.encode(deck)
+  
   return (
     <div>
       <DeckEditor />

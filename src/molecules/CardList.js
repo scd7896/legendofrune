@@ -15,11 +15,11 @@ const CardList = ({cardList})=>{
             type : SET_CARD_DECK,
             data : data
         })
-        console.log(el);
+        
     }
     return(
         <div className = "card_list_container">
-            {cardList.filter((el)=> el.supertype!=="")
+            {cardList.filter(el=> el.rarity !== "없음")
                 .filter((el)=>{
                 if(costFilterList.length === 0){
                     return true
