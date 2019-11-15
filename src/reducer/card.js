@@ -79,13 +79,17 @@ const card = (state = initItialState, action )=>{
                 }
                 break;
             case SET_DECODE_DECK:
+                let tmpChampion =0;
+                let cardTmp =0;
                 draft.deckList = action.data;
                 action.data.map((el)=>{
-                    draft.deckCount+=el.count
+                    cardTmp+=el.count
                     if(el.rarity === "챔피언"){
-                        draft.championCount += el.count
+                        tmpChampion += el.count
                     }
                 })
+                draft.championCount = tmpChampion;
+                draft.deckCount = cardTmp
                 break;
 
             case SET_REGION_FILTER :
