@@ -10,7 +10,8 @@ const CardList = ({cardList})=>{
             cardCode : el.cardCode,
             cost : el.cost,
             region : el.region,
-            name : el.name
+            name : el.name,
+            rarity : el.rarity
         }
         dispatch({
             type : SET_CARD_DECK,

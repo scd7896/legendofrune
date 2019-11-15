@@ -7,7 +7,9 @@ const initItialState = {
     deckList : [],
     costFilterList : [],
     regionFilterList : [],
-    filterNameContents : ""
+    filterNameContents : "",
+    championCount : 0,
+    deckCount : 0,
 }
 const card = (state = initItialState, action )=>{
     return produce(state, (draft)=>{
@@ -23,14 +25,32 @@ const card = (state = initItialState, action )=>{
                 break;
             case SET_CARD_DECK :
                 const check = draft.deckList.findIndex((el)=> el.cardCode === action.data.cardCode)
-                if(check === -1){
-                    draft.deckList.push({...action.data, count : 1})
-                }else{
-                    if(draft.deckList[check].count >=3){
+                if(action.data.rarity === "챔피언"){
+                    if(draft.championCount >= 6){
                         break;
                     }
-                    draft.deckList[check].count++;
+                    if(check === -1){
+                        draft.deckList.push({...action.data, count : 1})
+                    }else{
+                        if(draft.deckList[check].count >=3){
+                            break;
+                        }
+                        draft.deckList[check].count++;
+                    }
+                    draft.championCount++;
+                }else{
+                    if(check === -1){
+                        draft.deckList.push({...action.data, count : 1})
+                    }else{
+                        if(draft.deckList[check].count >=3){
+                            break;
+                        }
+                        draft.deckList[check].count++;
+                    }
                 }
+                
+                
+                draft.deckCount++;
                 break;
             case ALL_SET_DECK :
                 for(let i = 0 ; i<action.data.length; i++){
@@ -41,9 +61,14 @@ const card = (state = initItialState, action )=>{
             case RMV_CARD_DECK: 
                 const index = draft.deckList.findIndex((el)=> el.cardCode === action.data)
                 draft.deckList[index].count--
+                if(draft.deckList[index].rarity === "챔피언"){
+                    draft.championCount--;
+                }
                 if(draft.deckList[index].count <= 0){
                     draft.deckList = draft.deckList.filter((el)=> el.cardCode !== draft.deckList[index].cardCode)
                 }
+                
+                draft.deckCount--;
                 break;
             case SET_COST_FILTER :
                 const test = draft.costFilterList.findIndex((el)=> el === action.data)
@@ -55,6 +80,12 @@ const card = (state = initItialState, action )=>{
                 break;
             case SET_DECODE_DECK:
                 draft.deckList = action.data;
+                action.data.map((el)=>{
+                    draft.deckCount+=el.count
+                    if(el.rarity === "챔피언"){
+                        draft.championCount += el.count
+                    }
+                })
                 break;
 
             case SET_REGION_FILTER :

@@ -27,3 +27,7 @@
     border-radius : 20px;
 }
 
+.count_container{
+    display: flex;
+    justify-content: space-around;
+}

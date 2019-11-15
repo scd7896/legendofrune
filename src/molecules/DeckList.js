@@ -8,7 +8,7 @@ import './css/DeckList.css'
 const DeckList = ()=>{
     const dispatch = useDispatch();
     const [codeText, setCodeText] = useState('')
-    const {deckList} = useSelector(state => state.card)
+    const {deckList,deckCount, championCount} = useSelector(state => state.card)
     const textChange = (e)=>{
         setCodeText(e.target.value)
     }
@@ -33,7 +33,6 @@ const DeckList = ()=>{
             return;
         }
         const deck = DeckEncoder.decode(codeText);
-        console.log(deck)
         const decodeDeck = deck.map((el)=>{
             const index = cardList.findIndex((card)=> card.cardCode === el.code)
             const targetCard = {
@@ -41,7 +40,8 @@ const DeckList = ()=>{
                 cost : cardList[index].cost,
                 region : cardList[index].region,
                 cardCode : cardList[index].cardCode,
-                count : el.count
+                count : el.count,
+                rarity : cardList[index].rarity
             }
             return targetCard
         })
@@ -60,6 +60,10 @@ const DeckList = ()=>{
                 <div className = "code_input_action_container">
                     <button className = "code_input_action_button" onClick = {decodeDeckCode}>가져오기</button>
                     <button className = "code_input_action_button" onClick = {encodingDeckCode}>발급하기</button>
+                </div>
+                <div className = "count_container">
+                    <p>덱 :{deckCount}/40</p>
+                    <p>챔피언 : {championCount}/6</p>
                 </div>
             </div>    
             {deckList.map((el,i)=>{
