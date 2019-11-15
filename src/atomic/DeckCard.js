@@ -1,7 +1,11 @@
 import React from 'react'
+import {useDispatch} from 'react-redux'
+import {RMV_CARD_DECK} from '../action'
 import './css/DeckCard.css'
+
 const DeckCard = ({cardData})=>{
     let backGround;
+    const dispatch = useDispatch();
     switch(cardData.region){
         case "아이오니아" :
             backGround = "aionia";
@@ -21,8 +25,14 @@ const DeckCard = ({cardData})=>{
         default :
             backGround = "fieldover"
     }
+    const removeInToDeck = ()=>{
+        dispatch({
+            type: RMV_CARD_DECK,
+            data : cardData.cardCode
+        })
+    }
     return(
-        <div className = {`deck_card_container ${backGround}`}>
+        <div className = {`deck_card_container ${backGround}`} onClick = {removeInToDeck}>
             <p>{cardData.name}</p>
             <p>{cardData.count}</p>
         </div>

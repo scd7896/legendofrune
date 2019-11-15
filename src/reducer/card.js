@@ -1,6 +1,6 @@
 import produce from 'immer'
 import cardList from '../data/set1-ko_kr'
-import { RMV_COST_FILTER,ADD_COST_FILTER, SET_NAME_TEXT, SET_CARD_DECK, ALL_SET_DECK } from '../action'
+import { RMV_COST_FILTER,ADD_COST_FILTER, SET_NAME_TEXT, SET_CARD_DECK, ALL_SET_DECK, RMV_CARD_DECK } from '../action'
 const initItialState = {
     cardList : cardList,
     deckList : [],
@@ -35,6 +35,14 @@ const card = (state = initItialState, action )=>{
             case ALL_SET_DECK :
                 for(let i = 0 ; i<action.data.length; i++){
                     draft.deckList.push(action.data[i])
+                }
+                break;
+
+            case RMV_CARD_DECK: 
+                const index = draft.deckList.findIndex((el)=> el.cardCode === action.data)
+                draft.deckList[index].count--
+                if(draft.deckList[index].count <= 0){
+                    draft.deckList = draft.deckList.filter((el)=> el.cardCode !== draft.deckList[index].cardCode)
                 }
                 break;
             default :
