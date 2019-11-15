@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b8a0c75216f814356d578bff4700993",
+    "revision": "b2e78aa344feb30e411169fa0e5e8c5b",
     "url": "/runeterabuild/index.html"
   },
   {
-    "revision": "9ef384d98f2828c701d2",
+    "revision": "4796b43ea0d04c90ec35",
     "url": "/runeterabuild/static/css/main.cc80ad77.chunk.css"
   },
   {
-    "revision": "70ac71c07aece7d288cc",
-    "url": "/runeterabuild/static/js/2.9163ca22.chunk.js"
+    "revision": "b75dc392a3aba1652707",
+    "url": "/runeterabuild/static/js/2.52b4526a.chunk.js"
   },
   {
-    "revision": "9ef384d98f2828c701d2",
-    "url": "/runeterabuild/static/js/main.f936bf83.chunk.js"
+    "revision": "4796b43ea0d04c90ec35",
+    "url": "/runeterabuild/static/js/main.960468b0.chunk.js"
   },
   {
     "revision": "6262f1711257e2f2050b",
