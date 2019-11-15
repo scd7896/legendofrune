@@ -1,9 +1,10 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import { SET_CARD_DECK } from '../action';
+import './css/CardList.css'
 const CardList = ({cardList})=>{
     const dispatch = useDispatch();
-    const {costFilterList} = useSelector(state=> state.card)
+    const {costFilterList, regionFilterList} = useSelector(state=> state.card)
     const setCardToDeck = (el) =>()=>{
         const data = {
             cardCode : el.cardCode,
@@ -27,7 +28,15 @@ const CardList = ({cardList})=>{
                     const check = costFilterList.findIndex((list)=> list === el.cost)
                     return check !== -1
                 }
-            }).map((el, i)=>{
+            }).filter((el)=>{
+                if(regionFilterList.length ===0){
+                    return true
+                }else{
+                    const check = regionFilterList.findIndex((regionFilter)=> regionFilter === el.region)
+                    return check !==-1;
+                }
+            }).sort((a,b)=> a.cost - b.cost)
+            .map((el, i)=>{
                 return <img onClick = {setCardToDeck(el)} key = {i} width ={200} height = {200} src = {require(`../rune_image/ko_kr/img/cards/${el.cardCode}.png`) }alt = "이미지없음"/>
             })}
       </div>
