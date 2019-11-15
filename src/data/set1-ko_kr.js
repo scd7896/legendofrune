@@ -138,40 +138,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO015T2",
-      "01IO015"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO015T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO015T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 5,
-    "cost": 4,
-    "health": 4,
-    "description": "적 하나를 <link=keyword.Stun><sprite name=Stunned><style=Keyword>기절</style></link> 또는 <link=keyword.Recall><style=Keyword>귀환</style></link>시키면 해당 적을 타격합니다.",
-    "descriptionRaw": "적 하나를 기절 또는 귀환시키면 해당 적을 타격합니다.",
-    "flavorText": "\"죽음은 바람과 같지. 늘 내 곁에 있으니.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "야스오",
-    "cardCode": "01IO015T1",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [
@@ -385,53 +352,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ056T3",
-      "01PZ056T1",
-      "01PZ056T4",
-      "01PZ056T7",
-      "01PZ056T6",
-      "01PZ056T8",
-      "01PZ056T2",
-      "01PZ056T9",
-      "01PZ056T5",
-      "01PZ015",
-      "01PZ056"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ056T10.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ056T10-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 2,
-    "cost": 5,
-    "health": 4,
-    "description": "주문을 시전하면 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>일회용</style></link> 강화 포탑 하나를 손에 생성합니다.",
-    "descriptionRaw": "주문을 시전하면 일회용 강화 포탑 하나를 손에 생성합니다.",
-    "flavorText": "\"제가 미친 과학자라고요? 흥! 저는 '살짝 산만하기도 하고 연구의 범위도 넓지만 보시다시피 아주 안정적인' 과학자입니다만? 아주 고맙네요!\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "하이머딩거",
-    "cardCode": "01PZ056T10",
-    "keywords": [
-      "주문 부여"
-    ],
-    "keywordRefs": [
-      "Imbue"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   {
     "associatedCards": [],
     "associatedCardRefs": [],
@@ -1171,44 +1092,7 @@ export default [
     "type": "유닛",
     "collectible": true
   },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO041",
-      "01IO041T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO041T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO041T1-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 5,
-    "cost": 5,
-    "health": 4,
-    "description": "주문 카드를 내면 같은 대상에게<br>해당 주문을 한 번 더 시전합니다.",
-    "descriptionRaw": "주문 카드를 내면 같은 대상에게해당 주문을 한 번 더 시전합니다.",
-    "flavorText": "\"어떤 대가를 치르더라도 아이오니아에 평화를 이뤄야 합니다.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "카르마",
-    "cardCode": "01IO041T1",
-    "keywords": [
-      "주문 부여"
-    ],
-    "keywordRefs": [
-      "Imbue"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
+  
   
   {
     "associatedCards": [],
@@ -1608,45 +1492,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI024",
-      "01SI042",
-      "01SI042T2"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI042T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI042T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 5,
-    "cost": 6,
-    "health": 7,
-    "description": "<link=keyword.Ephemeral><sprite name=Ephemeral><style=Keyword>하루살이</style></link> 상태인 모든 아군이<br>+2|+0을 가집니다.\r\n<style=VocabNoTooltip>공격</style>: 공격 준비 상태인 <link=card.summon><style=AssociatedCard>유령 기수</style></link><br>둘을 소환합니다.",
-    "descriptionRaw": "하루살이 상태인 모든 아군이+2|+0을 가집니다.\r\n공격: 공격 준비 상태인 유령 기수둘을 소환합니다.",
-    "flavorText": "천둥이 아닙니다. '전쟁의 전조'가 지평선을 넘어 달려오는 소리입니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "헤카림",
-    "cardCode": "01SI042T1",
-    "keywords": [
-      "압도"
-    ],
-    "keywordRefs": [
-      "Overwhelm"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -1673,41 +1518,6 @@ export default [
     "rarityRef": "None",
     "subtype": "",
     "supertype": "",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01IO009T1",
-      "01IO009",
-      "01IO009T3"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO009T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01IO009T2-full.png"
-      }
-    ],
-    "region": "아이오니아",
-    "regionRef": "Ionia",
-    "attack": 4,
-    "cost": 3,
-    "health": 3,
-    "description": "<style=VocabNoTooltip>공격</style>: 이 유닛과 능력치 및 키워드가 동일하고 공격 준비 상태인<br><link=card.summon><style=AssociatedCard>살아있는 그림자</style></link> 하나를 생성합니다.",
-    "descriptionRaw": "공격: 이 유닛과 능력치 및 키워드가 동일하고 공격 준비 상태인살아있는 그림자 하나를 생성합니다.",
-    "flavorText": "\"균형 같은 소리 하지 마. 그림자는 내게 진정한 힘을 보여줬어.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "제드",
-    "cardCode": "01IO009T2",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
     "type": "유닛",
     "collectible": false
   },
@@ -1776,44 +1586,6 @@ export default [
     "supertype": "",
     "type": "유닛",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX038",
-      "01NX038T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX038T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX038T2-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 10,
-    "cost": 6,
-    "health": 5,
-    "description": "",
-    "descriptionRaw": "",
-    "flavorText": "\"그는 강철의 의지와 거인의 완력을 지녔지. 트리파르 군단의 지도자로서 그보다 더 이상적인 장군은 없어.\" - 제리코 스웨인",
-    "artistName": "SIXMOREVODKA",
-    "name": "다리우스",
-    "cardCode": "01NX038T2",
-    "keywords": [
-      "압도"
-    ],
-    "keywordRefs": [
-      "Overwhelm"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   
   {
@@ -4428,47 +4200,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR053",
-      "01FR009T2",
-      "01FR009"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR009T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR009T1-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 3,
-    "health": 7,
-    "description": "피해를 버티고 생존하면<br><link=card.create><style=AssociatedCard>힘센 포로</style></link> 하나를 소환합니다.",
-    "descriptionRaw": "피해를 버티고 생존하면힘센 포로 하나를 소환합니다.",
-    "flavorText": "\"아빠, 브라움이랑 브라움의 문짝 얘기 하나만 해 줘요!\"\n\"아니면 브라움이 산을 둘로 쪼갠 얘기도 괜찮아요!\"\n\"아! 아니면 브라움이 여관에서 성난 설인을 무찌른 얘기는 어때요?\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "브라움",
-    "cardCode": "01FR009T1",
-    "keywords": [
-      "도전자",
-      "재생"
-    ],
-    "keywordRefs": [
-      "Challenger",
-      "Regeneration"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -4871,40 +4602,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX042",
-      "01NX042T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX042T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX042T2-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 4,
-    "cost": 4,
-    "health": 3,
-    "description": "<link=vocab.Play><style=Vocab>사용</style></link>: 공격 토큰을 획득합니다.\r\n<link=vocab.Strike><style=Vocab>타격</style></link>: <link=keyword.Recall><style=Keyword>귀환</style></link>합니다.",
-    "descriptionRaw": "사용: 공격 토큰을 획득합니다.\r\n타격: 귀환합니다.",
-    "flavorText": "\"아닙니다! 빨간 번쩍임을 목격한 다음 정신을 차려보니... 거기는 도살장처럼 변해있었습니다.\" - 데마시아 국경 보초",
-    "artistName": "SIXMOREVODKA",
-    "name": "카타리나",
-    "cardCode": "01NX042T2",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -5252,44 +4949,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE045T2",
-      "01DE045"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE045T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE045T1-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 4,
-    "cost": 3,
-    "health": 4,
-    "description": "적 넷을 죽이고 생존하면<br>게임에서 승리합니다. <style=Variable></style>",
-    "descriptionRaw": "적 넷을 죽이고 생존하면게임에서 승리합니다. ",
-    "flavorText": "\"투기장에서 대회까지, 수련장에서 전장까지, 나는 겨뤄볼 만한 상대를 갈망해왔어. 최고로 인정받을 때까지 멈추지 않겠어.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "피오라",
-    "cardCode": "01DE045T1",
-    "keywords": [
-      "도전자"
-    ],
-    "keywordRefs": [
-      "Challenger"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -5386,45 +5045,6 @@ export default [
     "supertype": "",
     "type": "유닛",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01DE042T3",
-      "01DE042T1",
-      "01DE042"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE042T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01DE042T2-full.png"
-      }
-    ],
-    "region": "데마시아",
-    "regionRef": "Demacia",
-    "attack": 4,
-    "cost": 6,
-    "health": 5,
-    "description": "<style=VocabNoTooltip>공격</style>: 손에 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>일회용</style></link> <link=card.warcry><style=AssociatedCard>최후의 섬광</style></link><br>하나를 생성합니다.",
-    "descriptionRaw": "공격: 손에 일회용 최후의 섬광하나를 생성합니다.",
-    "flavorText": "\"제가 다른 사람들과 다른 점이 있다는 건 항상 알고 있었어요... 제 안의 빛 말이죠. 이 빛이 무엇인지 정확히는 모르겠지만, 꼭 알아낼 거예요!\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "럭스",
-    "cardCode": "01DE042T2",
-    "keywords": [
-      "보호막"
-    ],
-    "keywordRefs": [
-      "Barrier"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   {
     "associatedCards": [],
@@ -6748,83 +6368,6 @@ export default [
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "01FR039T1",
-      "01FR039"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR039T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR039T2-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 9,
-    "cost": 8,
-    "health": 9,
-    "description": "",
-    "descriptionRaw": "",
-    "flavorText": "\"대의를 위해 목숨을 바치지 마라. 대의를 지키기 위해 살아라.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "트린다미어",
-    "cardCode": "01FR039T2",
-    "keywords": [
-      "압도",
-      "공포",
-      "강인함"
-    ],
-    "keywordRefs": [
-      "Overwhelm",
-      "Fearsome",
-      "Tough"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR038T3",
-      "01FR038T1",
-      "01FR038"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR038T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR038T2-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 6,
-    "cost": 4,
-    "health": 4,
-    "description": "<style=VocabNoTooltip>공격</style>: <link=vocab.Strongest><style=Vocab>최강</style></link>인 적을<br><link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>동상</style></link>에 걸리게 합니다.\r\n공격력이 0인 모든 적은<br>방어할 수 없습니다.",
-    "descriptionRaw": "공격: 최강인 적을동상에 걸리게 합니다.\r\n공격력이 0인 모든 적은방어할 수 없습니다.",
-    "flavorText": "\"너희는 우리의 적이 아니다. 우리의 적은 길고도 제멋대로인 겨울이다. 우리는 프렐요드에 속한 사람들이고, 이 땅은 우리 모두에게 속한다!\" ",
-    "artistName": "SIXMOREVODKA",
-    "name": "애쉬",
-    "cardCode": "01FR038T2",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
       "01PZ033T1"
     ],
     "assets": [
@@ -7437,41 +6980,6 @@ export default [
     "supertype": "",
     "type": "유닛",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01PZ040T2",
-      "01PZ040T3",
-      "01PZ040"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01PZ040T1-full.png"
-      }
-    ],
-    "region": "필트오버 & 자운",
-    "regionRef": "PiltoverZaun",
-    "attack": 5,
-    "cost": 4,
-    "health": 4,
-    "description": "라운드 시작: 카드 1장을 뽑습니다.\r\n라운드마다 처음으로 손에 카드가 없으면 손에 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>일회용</style></link> <link=card.create><style=AssociatedCard>초강력 초토화 로켓!</style></link> 하나를 생성합니다.",
-    "descriptionRaw": "라운드 시작: 카드 1장을 뽑습니다.\r\n라운드마다 처음으로 손에 카드가 없으면 손에 일회용 초강력 초토화 로켓! 하나를 생성합니다.",
-    "flavorText": "\"뭔가 터질 때까진 전부 장난일 뿐이야. 터지고 나면 파티 시작이지!\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "징크스",
-    "cardCode": "01PZ040T1",
-    "keywords": [],
-    "keywordRefs": [],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   {
     "associatedCards": [],
@@ -8852,45 +8360,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01NX006T2",
-      "01NX006",
-      "01NX006T3"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01NX006T1-full.png"
-      }
-    ],
-    "region": "녹서스",
-    "regionRef": "Noxus",
-    "attack": 6,
-    "cost": 5,
-    "health": 6,
-    "description": "<style=VocabNoTooltip>공격</style>: 현재 공격 준비 상태인<br>모든 아군에게 피해를 1씩 입히고<br>해당 아군 하나당 적 넥서스에<br>피해를 1씩 입힙니다.",
-    "descriptionRaw": "공격: 현재 공격 준비 상태인모든 아군에게 피해를 1씩 입히고해당 아군 하나당 적 넥서스에피해를 1씩 입힙니다.",
-    "flavorText": "잔인함. 냉정함. 잔혹함. 흥미로움. 통찰력. 매력.\n빠져나올 수 없는...",
-    "artistName": "SIXMOREVODKA",
-    "name": "블라디미르",
-    "cardCode": "01NX006T1",
-    "keywords": [
-      "재생"
-    ],
-    "keywordRefs": [
-      "Regeneration"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -9691,46 +9160,6 @@ export default [
     "supertype": "",
     "type": "유닛",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR024T4",
-      "01FR024T1",
-      "01FR024",
-      "01FR024T5"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T3-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 5,
-    "cost": 6,
-    "health": 4,
-    "description": "<style=VocabNoTooltip>공격</style>: 모든 적에게 피해를 2 입힙니다.\r\n<link=keyword.Last Breath><sprite name=LastBreath><style=Keyword>최후의 숨결</style></link>: <link=card.transform><style=AssociatedCard>얼음불사조 알</style></link> 상태로 부활합니다.",
-    "descriptionRaw": "공격: 모든 적에게 피해를 2 입힙니다.\r\n최후의 숨결: 얼음불사조 알 상태로 부활합니다.",
-    "flavorText": "\"나는 내가 태어난 이 혹독한 땅을 지켜야 합니다. 세월, 전쟁, 죽음마저도 나의 경계를 늦추지 못할 것입니다.\"",
-    "artistName": "SIXMOREVODKA",
-    "name": "애니비아",
-    "cardCode": "01FR024T3",
-    "keywords": [
-      "공격 전용"
-    ],
-    "keywordRefs": [
-      "CantBlock"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   {
     "associatedCards": [],
@@ -11499,45 +10928,6 @@ export default [
   },
   {
     "associatedCards": [],
-    "associatedCardRefs": [
-      "01FR024T3",
-      "01FR024",
-      "01FR024T1"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T4.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01FR024T4-full.png"
-      }
-    ],
-    "region": "프렐요드",
-    "regionRef": "Freljord",
-    "attack": 0,
-    "cost": 1,
-    "health": 1,
-    "description": "",
-    "descriptionRaw": "",
-    "flavorText": "한겨울이 되면 프렐요드의 수호자들은 그녀가 돌아올 때를 기다립니다.",
-    "artistName": "SIXMOREVODKA",
-    "name": "얼음불사조 알",
-    "cardCode": "01FR024T4",
-    "keywords": [
-      "공격 전용"
-    ],
-    "keywordRefs": [
-      "CantBlock"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
-  },
-  {
-    "associatedCards": [],
     "associatedCardRefs": [],
     "assets": [
       {
@@ -12387,44 +11777,6 @@ export default [
     "supertype": "",
     "type": "주문",
     "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [
-      "01SI052T2",
-      "01SI052"
-    ],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI052T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/Set1/ko_kr/img/cards/01SI052T1-full.png"
-      }
-    ],
-    "region": "그림자 군도",
-    "regionRef": "ShadowIsles",
-    "attack": 4,
-    "cost": 5,
-    "health": 7,
-    "description": "이 게임에서 처음 공격하면<br>덱이나 손에서 챔피언 하나를<br>공격 준비 상태로 소환합니다.",
-    "descriptionRaw": "이 게임에서 처음 공격하면덱이나 손에서 챔피언 하나를공격 준비 상태로 소환합니다.",
-    "flavorText": "철커덩 덜커덩, 쇠사슬 소리가 들려, 누군가 널 찾는구나,\n철커덩 덜커덩, 쇠사슬 소리가 들려, 간수가 네 뒤에 있네...",
-    "artistName": "SIXMOREVODKA",
-    "name": "쓰레쉬",
-    "cardCode": "01SI052T1",
-    "keywords": [
-      "도전자"
-    ],
-    "keywordRefs": [
-      "Challenger"
-    ],
-    "spellSpeed": "",
-    "spellSpeedRef": "",
-    "rarity": "없음",
-    "rarityRef": "None",
-    "subtype": "",
-    "supertype": "챔피언",
-    "type": "유닛",
-    "collectible": false
   },
   {
     "associatedCards": [],

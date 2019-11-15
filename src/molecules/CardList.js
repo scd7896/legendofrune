@@ -19,9 +19,8 @@ const CardList = ({cardList})=>{
     }
     return(
         <div className = "card_list_container">
-            {cardList.filter((el,i)=>{
-                return el.supertype === ''
-            }).filter((el)=>{
+            {cardList.filter((el)=> el.supertype!=="")
+                .filter((el)=>{
                 if(costFilterList.length === 0){
                     return true
                 }else{
@@ -29,7 +28,7 @@ const CardList = ({cardList})=>{
                     return check !== -1
                 }
             }).map((el, i)=>{
-                return <img onClick = {setCardToDeck(el)} key = {i} width ={150} height = {150} src = {require(`../rune_image/ko_kr/img/cards/${el.cardCode}.png`) }alt = "이미지없음"/>
+                return <img onClick = {setCardToDeck(el)} key = {i} width ={200} height = {200} src = {require(`../rune_image/ko_kr/img/cards/${el.cardCode}.png`) }alt = "이미지없음"/>
             })}
       </div>
     )

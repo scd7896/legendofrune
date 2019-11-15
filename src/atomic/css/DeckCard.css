@@ -1,7 +1,7 @@
 .deck_card_container{
     display: flex;
     align-items: center;
-    padding-left : 30px;
+    
     justify-content: space-around;
     width : 300px;
     height : 70px;
