@@ -8,6 +8,7 @@
     border-radius: 30px;
     border : 1px solid black;
     margin-top :8px;
+    margin-left : 10px;
 }
 .none_selected {
     background-color: #eeeeee;
