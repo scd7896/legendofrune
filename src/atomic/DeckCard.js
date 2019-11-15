@@ -33,6 +33,7 @@ const DeckCard = ({cardData})=>{
     }
     return(
         <div className = {`deck_card_container ${backGround}`} onClick = {removeInToDeck}>
+            <p className = "cost_container">{cardData.cost}</p>
             <p>{cardData.name}</p>
             <p>{cardData.count}</p>
         </div>
